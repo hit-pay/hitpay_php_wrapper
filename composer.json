@@ -1,0 +1,28 @@
+{
+    "name": "Hit-pay/hitpay_php_wrapper",
+    "type": "library",
+    "description": "This is composer wrapper for hitpay_php_wrapper",
+    "license": "MIT",
+    "homepage": "https://github.com/hit-pay/hitpay_php_wrapper",
+    "keywords": ["hitpay", "php", "api", "wrapper"],
+    "authors": [
+        {
+            "name": "Hitpay and contributors",
+            "email": "support@hitpay.com",
+            "homepage": ""
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "HitPay\\": "src/"
+        }
+    },
+    "support": {
+        "issues": "",
+        "docs": "",
+        "email": "support@hitpay.com"
+    }
+}
