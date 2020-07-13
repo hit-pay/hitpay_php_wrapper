@@ -77,4 +77,4 @@ You have these functions to interact with the Payment Request API:
   * `amount`: Payment Request ID for which Payment Request is being requested.
   * `currency`: A three letter currency-code.
 
-Further documentation is available at https://hit-pay.local/api/documentation
+Further documentation is available at https://staging.hit-pay.com/docs.html 
