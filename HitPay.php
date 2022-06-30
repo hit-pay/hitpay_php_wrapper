@@ -4,11 +4,11 @@ namespace HitPay;
 
 class HitPay 
 {
-    const version               = '1';
+    const version               = 'v1';
 
     protected $curl;
     protected $endpoint         = 'https://api.hit-pay.com/';
-    protected $endpointSandbox  = 'https://api.staging.hit-pay.com/';
+    protected $endpointSandbox  = 'https://api.sandbox.hit-pay.com/';
     protected $apiKey           = null;
     protected $authToken        = null;
     protected $isSandBox        = false;
