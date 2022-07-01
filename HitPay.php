@@ -113,8 +113,8 @@ class HitPay
             }
         }
 
-        if ($responseObj['success'] == false) {
-            $message = json_encode($responseObj['message']);
+        if (isset($responseObj['errors']) {
+            $message = json_encode($responseObj['errors']);
             throw new \Exception($message . PHP_EOL);
         }
 
